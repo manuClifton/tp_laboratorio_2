@@ -13,14 +13,21 @@ namespace MiCalculadora
 {
     public partial class FormCalculadora : Form
     {
-
-        int flagBinario = 0;
+        //Flags botonnes convertir a binario y decimal
+        int flagPasarABinario = 0;
         int flagPadarADecimal = 0;
         public FormCalculadora()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Metodo operar llama al metodo de clase Calcularora Operar y asgina valor a el retorno
+        /// </summary>
+        /// <param name="numero1">string</param>
+        /// <param name="numero2">string</param>
+        /// <param name="operador">string</param>
+        /// <returns>string</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
             double resultado;
@@ -32,17 +39,25 @@ namespace MiCalculadora
             return resultado;
         }
 
+        /// <summary>
+        /// Evento del boton btnOperar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnOperar_Click(object sender, EventArgs e)
         {
 
             double resultado;
+            //valida que esten cargados los textBox y comboBox
             if (!(String.IsNullOrEmpty(cmbOperador.Text)))
             {
                 if (!(String.IsNullOrEmpty(txtNumero1.Text))
                 && !(String.IsNullOrEmpty(txtNumero2.Text)))
                 {
+                    //asigna valor a la variable double
                    resultado = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
 
+                    //se asigna valor al label de resultado
                     if (resultado == double.MinValue)
                     {
                         lblResultado.Text = "No es posible dividir por 0";
@@ -54,7 +69,7 @@ namespace MiCalculadora
                         lblResultado.Text = Math.Round(resultado, 2).ToString();
                         lblResultado.BackColor = Color.Azure;
                         lblResultado.ForeColor = Color.Black;
-                        flagBinario = 0;
+                        flagPasarABinario = 0;
                     }
 
                 }
@@ -74,6 +89,10 @@ namespace MiCalculadora
             
         }
 
+
+        /// <summary>
+        /// Metodo limpiar, borra los valores de los textBox, comboBox y lavbel de resultado
+        /// </summary>
         private void Limpiar()
         {
             this.txtNumero1.Text = string.Empty;
@@ -81,14 +100,24 @@ namespace MiCalculadora
             cmbOperador.Text = string.Empty;
             lblResultado.Text = string.Empty;
             flagPadarADecimal = 0;
-            flagBinario = 0;
+            flagPasarABinario = 0;
         }
 
+        /// <summary>
+        /// Evento que llama al metodo Limpiar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             this.Limpiar();
         }
 
+        /// <summary>
+        /// Evento que Cierra el formulario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             
@@ -98,20 +127,32 @@ namespace MiCalculadora
             }
         }
 
+
+        /// <summary>
+        /// Evento para covertir un decimal a binario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
            
             Numero binario = new Numero(lblResultado.Text);
             double num;
-            if (double.TryParse(lblResultado.Text, out num) && flagBinario == 0)
+            if (double.TryParse(lblResultado.Text, out num) && flagPasarABinario == 0)
             {
                 lblResultado.Text = binario.DecimalBinario(((int)Math.Abs(num)));
-                flagBinario = 1;
+                flagPasarABinario = 1;
                 flagPadarADecimal = 0;
             }
 
         }
 
+
+        /// <summary>
+        /// Evento que convierte un binario en decimal
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConvervirADecimal_Click(object sender, EventArgs e)
         {
             Numero numDecimal = new Numero(lblResultado.Text);
@@ -119,7 +160,7 @@ namespace MiCalculadora
             if (double.TryParse(lblResultado.Text, out num) && flagPadarADecimal == 0)
             {
                 lblResultado.Text = numDecimal.BinarioDecimal(num.ToString());
-                flagBinario = 0;
+                flagPasarABinario = 0;
                 flagPadarADecimal = 1;
             }
         }
