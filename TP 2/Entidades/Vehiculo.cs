@@ -24,7 +24,7 @@ namespace Entidades
         private EMarca marca;
         private string chasis;
         private ConsoleColor color;
-        private ETamanio tamanio;
+
 
 
         /// <summary>
@@ -38,17 +38,11 @@ namespace Entidades
             this.chasis = chasis;
             this.marca = marca;
             this.color = color;
+            
+            
         }
 
 
-
-        /// <summary>
-        /// ReadOnly: Retornará el tamaño
-        /// </summary>
-        protected ETamanio Tamanio
-        {
-            get { return this.tamanio; }
-        }
         /// <summary>
         /// ReadOnly: Retornará el chasis
         /// </summary>
@@ -92,6 +86,7 @@ namespace Entidades
             sb.AppendLine($"MARCA : {p.marca}");
             sb.AppendLine($"COLOR : {p.color}");
             sb.AppendLine("---------------------");
+
 
             return sb.ToString();
         }

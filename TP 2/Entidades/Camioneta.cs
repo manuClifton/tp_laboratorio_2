@@ -18,6 +18,7 @@ namespace Entidades
         /// <param name="color"></param>
         public Camioneta(EMarca marca, string chasis, ConsoleColor color): base(chasis,marca,color)
         {
+            tamanio = ETamanio.Grande;
         }
         /// <summary>
         /// Las camionetas son grandes

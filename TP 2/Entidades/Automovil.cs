@@ -25,7 +25,16 @@ namespace Entidades
         public Automovil(EMarca marca, string chasis, ConsoleColor color)
             : base(chasis, marca, color)
         {
-            
+            tamanio = ETamanio.Mediano;
+            if (marca == EMarca.Toyota)
+            {
+                tipo = ETipo.Monovolumen;
+            }
+            if (marca == EMarca.Chevrolet)
+            {
+                tipo = ETipo.Sedan;
+            }
+
         }
 
         /// <summary>

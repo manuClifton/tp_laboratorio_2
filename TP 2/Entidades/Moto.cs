@@ -17,6 +17,7 @@ namespace Entidades
         /// <param name="color"></param>
         public Moto(EMarca marca, string chasis, ConsoleColor color):base(chasis,marca,color)
         {
+            tamanio = ETamanio.Chico;
         }
 
         /// <summary>
