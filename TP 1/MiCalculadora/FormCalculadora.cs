@@ -58,9 +58,9 @@ namespace MiCalculadora
                    resultado = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
 
                     //se asigna valor al label de resultado
-                    if (resultado == double.MinValue)
+                    if (cmbOperador.Text == "/" && txtNumero2.Text == "0")
                     {
-                        lblResultado.Text = "No es posible dividir por 0";
+                        lblResultado.Text = double.MinValue.ToString();
                         lblResultado.BackColor = Color.DarkGray;
                         lblResultado.ForeColor = Color.Brown;
                     }

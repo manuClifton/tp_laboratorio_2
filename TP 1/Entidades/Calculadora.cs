@@ -19,30 +19,38 @@ namespace Entidades
         public static double Operar(Numero num1, Numero num2, string operador)
         {
             operador = ValidarOperador(operador);
-   
-            if(operador == "-")
+
+            switch (operador)
             {
-                return num1 - num2;
-            }
-            else if (operador == "*")
-            {
-                return num1 * num2;
-            }
-            else if (operador == "/")
-            {
-                if ((double)num2 == 0)
-                {
-                    return double.MinValue;
-                }
-                else
-                {
+                case "-":
+                    return num1 - num2;
+          
+                case "*":
+                    return num1 * num2;
+              
+                case "/":
                     return num1 / num2;
-                }
+               
+                default:
+                    return num1 + num2;
+            
             }
-            else
-            {
-                return num1 + num2;
-            }
+            //if(operador == "-")
+            //{
+            //    return num1 - num2;
+            //}
+            //else if (operador == "*")
+            //{
+            //    return num1 * num2;
+            //}
+            //else if (operador == "/")
+            //{
+            //      return num1 / num2;
+            //}
+            //else
+            //{
+            //    return num1 + num2;
+            //}
         }
 
 
