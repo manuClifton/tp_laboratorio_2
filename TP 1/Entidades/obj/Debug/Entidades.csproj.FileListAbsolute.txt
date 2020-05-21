@@ -1,0 +1,18 @@
+C:\Users\manu_\Desktop\Trabajo Practico 1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\Trabajo Practico 1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\Trabajo Practico 1\Entidades\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\Trabajo Practico 1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\Trabajo Practico 1\Entidades\obj\Debug\Entidades.dll
+C:\Users\manu_\Desktop\Trabajo Practico 1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 1\Entidades\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\Trabajos Practicos\TP 1\Entidades\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\Trabajos Practicos\TP 1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\Trabajos Practicos\TP 1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\Trabajos Practicos\TP 1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\Trabajos Practicos\TP 1\Entidades\obj\Debug\Entidades.dll
+C:\Users\manu_\Desktop\Trabajos Practicos\TP 1\Entidades\obj\Debug\Entidades.pdb
