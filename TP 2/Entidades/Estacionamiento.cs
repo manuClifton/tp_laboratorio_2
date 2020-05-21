@@ -40,7 +40,7 @@ namespace Entidades
         /// <returns></returns>
         public override string ToString()
         {
-            return Mostrar(this, ETipo.Todos);
+            return this.Mostrar(this, ETipo.Todos);
         }
         #endregion
 
@@ -63,14 +63,26 @@ namespace Entidades
                 switch (tipo)
                 {
                     case ETipo.Camioneta:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Camioneta )
+                        {
+                            sb.AppendLine(v.Mostrar());
+                        }
                         break;
+
                     case ETipo.Moto:
-                        sb.AppendLine(v.Mostrar());
+                        if(v is Moto)
+                        {
+                            sb.AppendLine(v.Mostrar());
+                        }   
                         break;
+
                     case ETipo.Automovil:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Automovil)
+                        {
+                            sb.AppendLine(v.Mostrar());
+                        }
                         break;
+
                     default:
                         sb.AppendLine(v.Mostrar());
                         break;
@@ -93,7 +105,7 @@ namespace Entidades
             int contador = 0;
             for (int i = 0; i < estacionamiento.vehiculos.Count; i++)
             {
-                if (estacionamiento.vehiculos[i].Chasis == vehiculo.Chasis)
+                if (estacionamiento.vehiculos[i] == vehiculo)
                 {
                     contador++;
                 }
@@ -118,9 +130,11 @@ namespace Entidades
             {
                 if (estacionamiento.vehiculos[i] == vehiculo)
                 {
-                    estacionamiento.vehiculos.Remove(vehiculo);
+                    estacionamiento.vehiculos.Remove(estacionamiento.vehiculos[i]);
+                    break;
                 }
             }
+
 
             return estacionamiento;
         }

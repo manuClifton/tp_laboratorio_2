@@ -17,7 +17,14 @@ namespace Entidades
         /// <param name="color"></param>
         public Camioneta(EMarca marca, string chasis, ConsoleColor color): base(chasis,marca,color)
         {
-            this.Tamanio = ETamanio.Grande;
+        }
+
+        /// <summary>
+        /// Asigna el tamaño
+        /// </summary>
+        protected override ETamanio Tamanio
+        {
+            get { return ETamanio.Grande; }
         }
 
         /// <summary>
@@ -33,17 +40,6 @@ namespace Entidades
             sb.AppendLine("---------------------");
             return sb.ToString();
         }
-        //public new string Mostrar()
-        //{
-        //    StringBuilder sb = new StringBuilder();
 
-        //    sb.AppendLine("CAMIONETA");
-        //    sb.AppendLine($"{base.Mostrar()}");
-        //    sb.AppendLine("---------------------");
-        //    sb.AppendLine($"TAMAÑO: {this.Tamanio}");
-        //    sb.AppendLine("---------------------");
-
-        //    return sb.ToString();
-        //}
     }
 }

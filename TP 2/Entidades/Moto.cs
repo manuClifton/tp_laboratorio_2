@@ -8,8 +8,6 @@ namespace Entidades
 {
     public class Moto : Vehiculo
     {
-
-        int numero = 1;
         /// <summary>
         /// Constructor, llama a base
         /// </summary>
@@ -18,10 +16,15 @@ namespace Entidades
         /// <param name="color"></param>
         public Moto(EMarca marca, string chasis, ConsoleColor color):base(chasis,marca,color)
         {
-            this.Tamanio = ETamanio.Chico;
         }
 
-
+        /// <summary>
+        /// Asigna el tamaño
+        /// </summary>
+        protected override ETamanio Tamanio
+        {
+            get { return ETamanio.Chico;  }
+        }
 
         /// <summary>
         /// Publica todos los datos de la MOTO.
@@ -37,17 +40,6 @@ namespace Entidades
             return sb.ToString();
         }
 
-        //public override string Mostrar()
-        //{
-        //    StringBuilder sb = new StringBuilder();
 
-        //    sb.AppendLine("MOTO");
-        //    sb.Append($"{base.Mostrar()}");
-        //    sb.AppendLine("---------------------");
-        //    sb.AppendLine($"TAMAÑO: {this.Tamanio}");
-        //    sb.AppendLine("---------------------");
-
-        //    return sb.ToString();
-        //}
     }
 }

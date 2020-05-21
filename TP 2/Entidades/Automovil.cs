@@ -24,7 +24,6 @@ namespace Entidades
         public Automovil(EMarca marca, string chasis, ConsoleColor color)
             : base(chasis, marca, color)
         {
-            this.Tamanio = ETamanio.Mediano;
             if (marca == EMarca.Toyota)
             {
                 tipo = ETipo.Monovolumen;
@@ -46,6 +45,14 @@ namespace Entidades
         public Automovil(EMarca marca, string chasis, ConsoleColor color, ETipo tipo):this(marca,chasis,color)
         {
             this.tipo = tipo;
+        }
+
+        /// <summary>
+        /// Asigna el tamaño
+        /// </summary>
+        protected override ETamanio Tamanio
+        {
+            get { return ETamanio.Mediano; }
         }
 
         /// <summary>
