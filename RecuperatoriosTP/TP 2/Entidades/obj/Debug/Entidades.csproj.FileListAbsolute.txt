@@ -27,3 +27,9 @@ C:\Users\manu_\Desktop\Trabajos Practicos\TP 2\Entidades\obj\Debug\Entidades.csp
 C:\Users\manu_\Desktop\Trabajos Practicos\TP 2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\manu_\Desktop\Trabajos Practicos\TP 2\Entidades\obj\Debug\Entidades.dll
 C:\Users\manu_\Desktop\Trabajos Practicos\TP 2\Entidades\obj\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP 2\Entidades\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP 2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP 2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP 2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP 2\Entidades\obj\Debug\Entidades.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\RecuperatoriosTP\TP 2\Entidades\obj\Debug\Entidades.pdb

@@ -21,7 +21,6 @@ namespace Entidades
             Chico, Mediano, Grande
         }
 
-        protected ETamanio tamanio;
         private EMarca marca;
         private string chasis;
         private ConsoleColor color;
@@ -43,36 +42,12 @@ namespace Entidades
 
 
         /// <summary>
-        /// ReadOnly: Retornará el chasis
+        /// Retorna el tamanio
         /// </summary>
-        public string Chasis
+        protected abstract ETamanio Tamanio
         {
-            get { return this.chasis; }
-        }
+            get;
 
-        /// <summary>
-        /// ReadOnly: Retornará el color
-        /// </summary>
-        protected ConsoleColor Color
-        {
-            get { return this.color; }
-        }
-
-        /// <summary>
-        /// ReadOnly: Retornará el marca
-        /// </summary>
-        protected EMarca Marca
-        {
-            get { return this.marca; }
-        }
-
-        /// <summary>
-        /// ReadOnly: Retornará el tamanio
-        /// </summary>
-        public ETamanio Tamanio
-        {
-            get { return this.tamanio; }
-            set { this.tamanio = value; }
         }
 
         /// <summary>
@@ -81,26 +56,17 @@ namespace Entidades
         /// <returns></returns>
         public virtual string Mostrar()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"CHASIS: {this.Chasis}");
-            sb.AppendLine($"MARCA: { this.Marca}");
-            sb.AppendLine($"COLOR: {this.Color}");
-            sb.AppendLine("---------------------\n");
-            sb.Append($"TAMAÑO: {this.Tamanio}");
-
-
-
-            return sb.ToString();
+            return (string)this;
         }
 
         public static explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine($"CHASIS: { p.chasis}");
-            sb.AppendLine($"MARCA : {p.marca}");
-            sb.AppendLine($"COLOR : {p.color}");
-            sb.AppendLine("---------------------");
+            sb.AppendLine($"CHASIS: {p.chasis}");
+            sb.AppendLine($"MARCA: { p.marca}");
+            sb.AppendLine($"COLOR: {p.color}");
+            sb.AppendLine("---------------------\n");
+            sb.Append($"TAMAÑO: {p.Tamanio}");
 
 
             return sb.ToString();
@@ -129,7 +95,7 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator !=(Vehiculo v1, Vehiculo v2)
         {
-            return !(v1.chasis == v2.chasis);
+            return !(v1 == v2);
         }
     }
 }
