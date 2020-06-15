@@ -129,7 +129,7 @@ namespace EntidadesAbstractas
             return sb.ToString();
         }
         /// <summary>
-        /// 
+        /// Valida que se ingrese un DNI correcto
         /// </summary>
         /// <param name="nacionalidad"></param>
         /// <param name="dato"></param>
@@ -148,6 +148,12 @@ namespace EntidadesAbstractas
                 throw new NacionalidadInvalidaException("La nacionalidad no se condice con el número de DNI");
             }
         }
+        /// <summary>
+        /// Valida que se ingrese un DNI correcto
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             bool dniCorrecto = Regex.IsMatch(dato, @"^[0-9]+$");
@@ -160,6 +166,11 @@ namespace EntidadesAbstractas
                 throw new DniInvalidoException("El DNI debe contener solo números.");
             }
         }
+        /// <summary>
+        /// Valida que la cadena contenga letras validas para nombres y apellidos.
+        /// </summary>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private string ValidarNombreApellido(string dato)
         {
             bool datoCorrecto = Regex.IsMatch(dato, @"^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]+$");
