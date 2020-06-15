@@ -1,0 +1,9 @@
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
