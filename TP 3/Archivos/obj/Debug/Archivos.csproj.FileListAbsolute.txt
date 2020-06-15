@@ -7,3 +7,12 @@ C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Man
 C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
 C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Archivos\obj\Debug\Archivos.dll
 C:\Users\manu_\Desktop\UTN\Segundo Cuatrimestre\Programacion y Laboratorio 2\Manu\tp3\Clifton.Manuel.2D.TP3\Archivos\obj\Debug\Archivos.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\bin\Debug\Archivos.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\bin\Debug\Excepciones.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\obj\Debug\Archivos.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 3\Archivos\obj\Debug\Archivos.pdb
