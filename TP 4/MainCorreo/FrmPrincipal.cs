@@ -89,6 +89,18 @@ namespace MainCorreo
             this.correo.FinEntregas();
         }
 
+        private void MostrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
+        }
+
+
+        private void BtnMostrarTodos_Click(object sender, EventArgs e)
+        {
+            this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
+        }
+
+
         private void MostrarInformacion<T>(IMostrar<T> elemento)
         {
             if (!(elemento is null))
@@ -109,16 +121,7 @@ namespace MainCorreo
             }
         }
 
-         private void MostrarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
-        }
-
-
-        private void BtnMostrarTodos_Click(object sender, EventArgs e)
-        {
-            this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
-        }
+        
 
        
     }

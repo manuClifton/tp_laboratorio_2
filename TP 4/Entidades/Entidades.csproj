@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Correo.cs" />
-    <Compile Include="GuardaString.cs" />
+    <Compile Include="GuardarString.cs" />
     <Compile Include="IMostrar.cs" />
     <Compile Include="InsertarEnDBExcepcion.cs" />
     <Compile Include="Paquete.cs" />
