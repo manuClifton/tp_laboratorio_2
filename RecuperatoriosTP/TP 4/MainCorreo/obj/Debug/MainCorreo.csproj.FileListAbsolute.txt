@@ -1,0 +1,70 @@
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\MainCorreo\bin\Debug\Entidades.dll.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\Entidades.dll.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\bin\Debug\Entidades.dll.config
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\manu_\Desktop\utn-prog-2\TPs\Dalairac.Diego.2C.TP4\proceso\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\manu_\Desktop\tp 4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\manu_\Desktop\tp 4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\manu_\Desktop\tp 4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\manu_\Desktop\tp 4\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\tp 4\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\tp 4\MainCorreo\bin\Debug\Entidades.dll.config
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.FrmPrincipal.resources
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\manu_\Desktop\tp 4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\bin\Debug\MainCorreo.exe
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\bin\Debug\MainCorreo.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\bin\Debug\Entidades.dll
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\bin\Debug\Entidades.pdb
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\bin\Debug\Entidades.dll.config
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.FrmPrincipal.resources
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\manu_\Desktop\tp_laboratorio_2\TP 4\MainCorreo\obj\Debug\MainCorreo.pdb
