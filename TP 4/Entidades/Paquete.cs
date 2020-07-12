@@ -19,6 +19,13 @@ namespace Entidades
 
         public event DelegadoEstado InformaEstado;
 
+        public enum EEstado
+        {
+            Ingresado,
+            EnViaje,
+            Entregado
+        }
+
         private string direccionEntrega;
         private EEstado estado;
         private string trackingID;
@@ -92,11 +99,6 @@ namespace Entidades
             return !(p1 == p2);
         }
 
-        public enum EEstado
-        {
-            Ingresado,
-            EnViaje,
-            Entregado
-        }
+      
     }
 }

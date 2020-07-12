@@ -78,7 +78,7 @@ namespace MainCorreo
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ocurrio un error inesperado", "Ups!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Ocurrio un error ", "Ups!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             this.ActualizarEstados();
         }

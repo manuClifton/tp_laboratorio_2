@@ -36,7 +36,7 @@ namespace Entidades
             }
             catch (Exception e)
             {
-                throw new InsertarEnDBExcepcion("Error al guardar en la base de datos",e);
+                throw new InsertarEnDBExcepcion("Error al guardar",e);
             }
             finally
             {
