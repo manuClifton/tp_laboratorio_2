@@ -7,40 +7,42 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+    public delegate void DelegadoMensaje(string msj);
     public static class PaqueteDAO
     {
-        static SqlCommand comando;
-        static SqlConnection conexion;
+        private static SqlConnection conecction;
+        private static SqlCommand command;
 
         static PaqueteDAO()
         {
-            conexion = new SqlConnection(@"Data Source = DESKTOP-PGQ4HMM; Initial Catalog=correo-sp-2017; Integrated Security=True;");
-            comando = new SqlCommand();
-            comando.CommandType = System.Data.CommandType.Text;
-            comando.Connection = conexion;
+            string conexion = @"Data Source = DESKTOP-PGQ4HMM; Initial Catalog=correo-sp-2017; Integrated Security=True;";
+            conecction = new SqlConnection(conexion);
+            command = new SqlCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.Connection = conecction;
         }
-
+  
         public static bool Insertar(Paquete p)
         {
             try
             {
-                comando.CommandText = $"INSERT INTO dbo.Paquetes " +
+                command.CommandText = $"INSERT INTO dbo.Paquetes " +
                     $"(direccionEntrega, trackingID, alumno ) " +
-                    $"VALUES ('{p.DireccionEntrega}', '{p.TrackingID}', 'Dalairac Diego')";
+                    $"VALUES ('{p.DireccionEntrega}', '{p.TrackingID}', 'MANUEL CLIFTON')";
 
-                conexion.Open();
-                int cant = comando.ExecuteNonQuery();
+                conecction.Open();
+                int cantidad = command.ExecuteNonQuery();
                 return true;
             }
             catch (Exception e)
             {
-                throw new InsertarEnDBExeption("Error al guardar en la base de datos", e);
+                throw new InsertarEnDBExcepcion("Error al guardar en la base de datos",e);
             }
             finally
             {
-                conexion.Close();
+                conecction.Close();
             }
         }
+    }
+}
 
-    }//
-}//

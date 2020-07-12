@@ -1,26 +1,28 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Forms;
 
 namespace Entidades
 {
     
+
+
     public class Paquete : IMostrar<Paquete>
     {
 
         public delegate void DelegadoEstado(Object sender, EventArgs e);
-        public event DelegadoEstado InformaEstado;
- 
-        string direccionEntrega;
-        EEstado estado;
-        string trackingID;
 
-        
+
+        public event DelegadoEstado InformaEstado;
+
+        private string direccionEntrega;
+        private EEstado estado;
+        private string trackingID;
+
 
         public Paquete(string direccionEntrega, string trakingID)
         {
@@ -34,7 +36,7 @@ namespace Entidades
             get { return this.direccionEntrega; }
             set { this.direccionEntrega = value; }
         }
-
+ 
         public EEstado Estado
         {
             get { return this.estado; }
@@ -47,6 +49,8 @@ namespace Entidades
             set { this.trackingID = value; }
         }
 
+
+
         public void MockCicloDeVida()
         {
             while (this.estado != EEstado.Entregado)
@@ -55,11 +59,11 @@ namespace Entidades
                 this.estado++;
                 this.InformaEstado.Invoke(this, new EventArgs());
             }
-            try
-            {
+            try            {
+
                 PaqueteDAO.Insertar(this);
             }
-            catch (InsertarEnDBExeption e)
+            catch (InsertarEnDBExcepcion e)
             {
                 MessageBox.Show(e.Message, "Ups!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -76,6 +80,8 @@ namespace Entidades
             return this.MostrarDatos(this);
         }
 
+
+
         public static bool operator ==(Paquete p1, Paquete p2)
         {
             return p1.trackingID == p2.trackingID;
@@ -86,12 +92,11 @@ namespace Entidades
             return !(p1 == p2);
         }
 
-
         public enum EEstado
         {
             Ingresado,
             EnViaje,
             Entregado
         }
-    }//
-}//
+    }
+}

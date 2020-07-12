@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6CF91D5D-C691-4314-AB82-E2004C5FACAE}</ProjectGuid>
+    <ProjectGuid>{38AAE8C6-4EE0-4FB0-BDB6-504F320AA1BF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MainCorreo</RootNamespace>
     <AssemblyName>MainCorreo</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{b8f9c2d4-1ce0-4ef6-b01f-a143431df1b8}</Project>
+      <Project>{0a6ed337-ed6c-4995-bb99-8d1f35f6dea0}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>

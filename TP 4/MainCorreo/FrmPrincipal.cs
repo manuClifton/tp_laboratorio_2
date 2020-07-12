@@ -21,17 +21,17 @@ namespace MainCorreo
             this.correo = new Correo();
         }
 
-        private void FrmPrincipal_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
             this.rtbMostrar.Enabled = false;
         }
-
 
         private void ActualizarEstados()
         {
             this.lstEstadoIngresado.Items.Clear();
             this.lstEstadoEnViaje.Items.Clear();
             this.lstEstadoEntregado.Items.Clear();
+
             foreach (Paquete p in this.correo.Paquetes)
             {
                 switch (p.Estado)
@@ -49,6 +49,7 @@ namespace MainCorreo
             }
         }
 
+
         private void paq_InformaEstado(Object sender, EventArgs e)
         {
             if (this.InvokeRequired)
@@ -62,8 +63,9 @@ namespace MainCorreo
             }
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private void BtnAgregar_Click(object sender, EventArgs e)
         {
+
             Paquete p = new Paquete(this.txtDireccion.Text, this.mtxtTrackingID.Text);
             p.InformaEstado += paq_InformaEstado;
             try
@@ -72,7 +74,7 @@ namespace MainCorreo
             }
             catch (TrackingIdRepetidoException ex)
             {
-                MessageBox.Show(ex.Message, "Paquete repetido", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                MessageBox.Show(ex.Message, "Paquete Repetido", MessageBoxButtons.OK, MessageBoxIcon.Question);
             }
             catch (Exception ex)
             {
@@ -80,6 +82,7 @@ namespace MainCorreo
             }
             this.ActualizarEstados();
         }
+
 
         private void CmsListas_Closing(object sender, ToolStripDropDownClosingEventArgs e)
         {
@@ -100,21 +103,23 @@ namespace MainCorreo
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message, "Ups!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
             }
         }
-        private void BtnMostrarTodos_Click(object sender, EventArgs e)
-        {
-            this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
-        }
 
-        private void MostrarToolStripMenuItem_Click(object sender, EventArgs e)
+         private void MostrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
         }
 
 
-    }//
-}//
+        private void BtnMostrarTodos_Click(object sender, EventArgs e)
+        {
+            this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
+        }
+
+       
+    }
+}
