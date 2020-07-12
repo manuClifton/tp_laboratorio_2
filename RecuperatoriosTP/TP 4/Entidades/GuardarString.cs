@@ -19,19 +19,12 @@ namespace Entidades
         {
             try
             {
-                if (File.Exists(archivo))
-                {
                     string escritorio = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                     using (StreamWriter sw = new StreamWriter(Path.Combine(escritorio, archivo), true))
                     {
                         sw.WriteLine(texto);
                     }
                     return true;
-                }
-                else
-                {
-                    return false;
-                }
             }
             catch (Exception e)
             {

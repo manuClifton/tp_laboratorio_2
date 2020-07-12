@@ -26,9 +26,7 @@ namespace Entidades
         {
             try
             {
-                command.CommandText = $"INSERT INTO dbo.Paquetes " +
-                    $"(direccionEntrega, trackingID, alumno ) " +
-                    $"VALUES ('{p.DireccionEntrega}', '{p.TrackingID}', 'MANUEL CLIFTON')";
+                command.CommandText = $"INSERT INTO dbo.Paquetes " +  $"(direccionEntrega, trackingID, alumno ) " + $"VALUES ('{p.DireccionEntrega}', '{p.TrackingID}', 'MANUEL CLIFTON')";
 
                 conecction.Open();
                 int cantidad = command.ExecuteNonQuery();
